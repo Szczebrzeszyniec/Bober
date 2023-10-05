@@ -1,0 +1,7 @@
+run = "set -e; csc Main.cs"
+
+[nix]
+channel = "stable-22_11"
+
+[deployment]
+run = ["sh", "-c", "set -e; csc Main.cs"]
