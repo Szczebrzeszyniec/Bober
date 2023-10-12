@@ -1,4 +1,4 @@
-run = "set -e; csc Main.cs; mono Main.exe"
+run = "set -e; csc Secondary.cs; mono Secondary.exe"
 
 [nix]
 channel = "stable-22_11"
